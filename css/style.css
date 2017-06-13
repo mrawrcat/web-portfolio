@@ -17,8 +17,12 @@ body {
 	display: flex;
 	font-size: 25px;
 	justify-content: space-between;
-	/*align-items: flex-start;*/
-	padding: 5px 20px;
+	align-items: center;
+	/*padding: 5px 20px;*/
+	line-height: 40px;
+	border: solid;
+	/*box-shadow: 1px 10px 5px #888888;*/
+
 }
 
 .brand {
@@ -31,13 +35,27 @@ body {
 	/*margin-left: auto;*/
 	cursor: pointer;
 	background: green;
+	padding: 5px 0 0 0;
+
+}
+
+.nav-toggle:hover {
+	background: blue;
 }
 .nav-list {
 	list-style: none;
-	text-decoration: none;
 	background: gold;
+	display: flex;
+	justify-content: space-around;
+	padding: 5px;
 }
-
+.nav-list a{
+	text-decoration: none;
+	padding: 3px;
+}
+.nav-list a:hover{
+	background: blue;
+}
 .nav-list-collapse {
 	display: none;
 }
