@@ -1,8 +1,43 @@
-*  {box-sizing: border-box;
-	padding: 0;
-	margin: 0;
+*  {
+	box-sizing: border-box;
+	/*padding: 0;*/
+	/*margin: 0;*/
 }
 
-body {background: cyan;
-	  
+body {
+	background: cyan;
+
+}
+
+.top-nav {
+	background: red;
+
+}
+.navbar{
+	display: flex;
+	font-size: 25px;
+	justify-content: space-between;
+	/*align-items: flex-start;*/
+	padding: 5px 20px;
+}
+
+.brand {
+	display: flex;
+	text-decoration: none;
+	background: yellow;
+
+}
+.nav-toggle {
+	/*margin-left: auto;*/
+	cursor: pointer;
+	background: green;
+}
+.nav-list {
+	list-style: none;
+	text-decoration: none;
+	background: gold;
+}
+
+.nav-list-collapse {
+	display: none;
 }
